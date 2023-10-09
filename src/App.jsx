@@ -6,15 +6,16 @@ import About from "./about";
 import Skills from "./skills";
 import Projects from "./projects";
 import Contact from "./contact";
-import video from "./video/Untitled.mp4";
+import Back from "./images/Screenshot 2023-10-09 172143.png";
 import Footer from "./footer";
 
 function App() {
   return (
-    <div className="video-container">
-      <video autoPlay muted loop>
-        <source src={video} type="video/mp4" />
-      </video>
+    <div>
+      <div className="video-container">
+        <img src={Back} alt=""></img>
+      </div>
+
       <Navbar />
       <Main />
       <About />

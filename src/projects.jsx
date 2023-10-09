@@ -13,10 +13,10 @@ function Projects() {
                 <p>My Portfolio</p>
                 <p>website showing</p>
                 <p>my work over</p>
-                <p>here.</p>
+                <p> here.</p>
                 <a
                   className="link"
-                  href="https://github.com/lakshaybindal/My-Portfolio"
+                  href="https://github.com/lakshaybindal/Portfolio"
                 >
                   <i className="fa-solid fa-link"></i>
                 </a>
